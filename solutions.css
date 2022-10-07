@@ -96,3 +96,30 @@
         transform: rotate(360deg);
     }
 }
+
+/* esercizio 11 */
+
+.ex-11-icon:hover {
+    animation: small-rotation 3s linear;
+}
+
+@keyframes small-rotation {
+    0% {
+        transform: rotate(0);
+    }
+    55% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(320deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+/* esercizio 12 */
+
+.ex-12-button:hover {
+    
+}
