@@ -120,6 +120,101 @@
 
 /* esercizio 12 */
 
-.ex-12-button:hover {
-    
+.ex-12-button:hover .ex-12-top-white {
+    animation: movetop 2s linear;
+}
+
+@keyframes movetop {
+    0% {
+        left: 10%;
+    }
+
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: movebottom 2s linear;
+}
+
+@keyframes movebottom {
+    0% {
+        right: 20%;
+    }
+
+    50% {
+        right: calc(100% - 60px);
+    }
+
+    100% {
+        right: 20%;
+    }
+}
+
+/* esercizio 13 */
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: rotationtop 2s linear;
+}
+
+@keyframes rotationtop {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+
+    25% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+
+    50% {
+        left: calc(100% - 30px);
+        top: 100%
+    }
+
+    75% {
+        left: 10%;
+        top: 100%
+    }
+
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: rotationbottom 2s linear;
+}
+
+@keyframes rotationbottom {
+    0% {
+        right: 20%;
+        bottom: -10px;
+    }
+
+    25% {
+        right: calc(100% - 30px);
+        buttom: -10px;
+    }
+
+    50% {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+
+    75% {
+        right: 20%;
+        buttom: 100%
+    }
+
+    100% {
+        right: 20%;
+        bottom: -10px;
+    }
 }
